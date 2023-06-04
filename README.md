@@ -17,7 +17,7 @@ Apple Silicon칩이 내장되어 있는 맥 환경이 필요합니다.
 맵과 좀비모델은 [유니티에셋스토어](https://assetstore.unity.com/?locale=ko-KR)에 있는 무료 에셋을 사용하였습니다.
 
 # 소스코드 편집 
-<img src="https://img.shields.io/badge/rider-000000?style=flat&logo=rider&logoColor=white"/><img src="https://img.shields.io/badge/visualstudiocode-007ACC?style=flat&logo=visualstudiocode&logoColor=white"/><img src="https://img.shields.io/badge/visualstudio-5C2D91?style=flat&logo=visualstudio&logoColor=white"/>   
+[<img src="https://img.shields.io/badge/rider-000000?style=flat&logo=rider&logoColor=white"/>](https://www.jetbrains.com/ko-kr/rider/)[<img src="https://img.shields.io/badge/visualstudiocode-007ACC?style=flat&logo=visualstudiocode&logoColor=white"/>](https://code.visualstudio.com)[<img src="https://img.shields.io/badge/visualstudio-5C2D91?style=flat&logo=visualstudio&logoColor=white"/>](https://visualstudio.microsoft.com/ko/)  
 다음과 같이 자동완성 기능과 유니티와 연동이 되는 최신버전의 IDE사용을 권장합니다.  
 
 ## 라이선스
