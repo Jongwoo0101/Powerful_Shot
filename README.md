@@ -5,7 +5,10 @@
 *오프라인 환경에서 즐기는 좀비게임!*
 
 # 사용 엔진
-<img src="https://img.shields.io/badge/unity-FFFFFF?style=flat&logo=unity&logoColor=black"/>
+[<img src="https://img.shields.io/badge/unity-FFFFFF?style=flat&logo=unity&logoColor=black"/>](https://unity.com/kr)
+```
+editor ver 2021.3.24f1
+```
 
 # 타깃 플랫폼   
 [Mac OS (Apple silicon)](https://support.apple.com/ko-kr/HT211814)   
