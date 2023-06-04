@@ -9,7 +9,7 @@
 
 # 타깃 플랫폼   
 [Mac OS (Apple silicon)](https://support.apple.com/ko-kr/HT211814)   
-실행하려면 Apple Silicon칩이 내장된 맥 환경이 필요합니다.
+Apple Silicon칩이 내장되어 있는 맥 환경이 필요합니다.
 - 추후에 Windows 환경에서도 실행할 수 있도록 변경 예정입니다.
 
 # 개발
