@@ -70,24 +70,18 @@ public class GunController : MonoBehaviour
         }
     }
 
-    private void Shot()
-    {
+    private void Shot() {
         currentGun.muzzleFlash.Play();
         PlaySE(currentGun.fire_Sound);
         Vector3 hitPosition = Vector3.zero;
-        if (Physics.Raycast(theCam.transform.position, theCam.transform.forward, out hitInfo, currentGun.range))
-        {
+        if (Physics.Raycast(theCam.transform.position, theCam.transform.forward, out hitInfo, currentGun.range)) {
             IDamageable target = hitInfo.collider.GetComponent<IDamageable>();
-            if (target != null) 
-            {
+            if (target != null) {
                 target.OnDamage(currentGun.damage, hit.point, hit.normal);
                 currentGun.carryBulletCount--;
             }
-
             hitPosition = hit.point;
-        }
-        else
-        {
+        } else {
             hitPosition = theCam.transform.position + theCam.transform.forward * currentGun.range;
             currentGun.carryBulletCount--;
         }

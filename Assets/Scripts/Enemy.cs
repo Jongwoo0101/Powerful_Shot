@@ -6,7 +6,6 @@ using UnityEngine.AI;
 public class Enemy : LivingEntity, IDamageable
 {
     public LayerMask whatISTarget; //추적 대상 레이어
-
     private LivingEntity targetEntity; //추적 대상
     private NavMeshAgent pathFinder; //경로 계산 AI 에이전트
 
@@ -65,29 +64,20 @@ public class Enemy : LivingEntity, IDamageable
         enemyAnimator.SetBool("HasTarget", hasTarget);
     }
 
-    private IEnumerator UpdatePath()
-    {
-        while (!dead)
-        {
-            if (hasTarget)
-            {
+    private IEnumerator UpdatePath() {
+        while (!dead) {
+            if (hasTarget) {
                 //추적대상 존재 : 경로를 갱신하고 AI 이동을 계속 진행
                 pathFinder.isStopped = false;
                 pathFinder.SetDestination(targetEntity.transform.position);
-            }
-            else
-            {
+            } else {
                 //추적 대상 없음 : AI 이동 중지
                 pathFinder.isStopped = true;
-
                 Collider[] colliders = Physics.OverlapSphere(transform.position, 20f, whatISTarget);
-
                 for(int i = 0; i < colliders.Length; i++)
                 {
                     LivingEntity livingEntity = colliders[i].GetComponent<LivingEntity>();
-
-                    if(livingEntity != null && !livingEntity.dead)
-                    {
+                    if(livingEntity != null && !livingEntity.dead) {
                         targetEntity = livingEntity;
                         break;
                     }
@@ -96,7 +86,6 @@ public class Enemy : LivingEntity, IDamageable
             //0.25초 주기로 처리 반복
             yield return new WaitForSeconds(0.25f);
         }
-
     }
 
     public override void OnDamage(float damage, Vector3 hitPoint, Vector3 hitNormal)
