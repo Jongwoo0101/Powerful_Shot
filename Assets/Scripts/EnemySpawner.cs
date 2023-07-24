@@ -14,8 +14,8 @@ public class EnemySpawner : MonoBehaviour {
     public float healthMax = 200f; // 최대 체력
     public float healthMin = 100f; // 최소 체력
 
-    public float speedMax = 3f; // 최대 속도
-    public float speedMin = 1f; // 최소 속도
+    public float speedMax = 6f; // 최대 속도
+    public float speedMin = 4f; // 최소 속도
 
     public Color strongEnemyColor = Color.red; // 강한 적 AI가 가지게 될 피부색
 
