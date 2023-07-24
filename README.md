@@ -1,7 +1,7 @@
 <img width="803" alt="스크린샷 2023-06-04 오후 3 59 20" src="https://github.com/Jongwoo0101/Powerful_Shot/assets/96978536/a44e24d1-15e1-4e61-ad9e-1a115c42d178">
 
 
-# Powerful_Shot!
+# Powerful Shot!
 > *오프라인 환경에서 즐기는 좀비게임❗️*
 
 <br />
