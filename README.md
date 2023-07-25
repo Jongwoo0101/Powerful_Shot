@@ -2,6 +2,8 @@
 
 
 # Powerful Shot!
+
+[![GitHub release](https://img.shields.io/github/release/Jongwoo0101/Powerful_Shot.svg)](https://github.com/Jongwoo0101/Powerful_Shot/releases/latest)
 > *오프라인 환경에서 즐기는 좀비게임❗️*
 
 <br />
